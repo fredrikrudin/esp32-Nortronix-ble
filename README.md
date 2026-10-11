@@ -1,5 +1,3 @@
-# esp32-Nortronix-ble
-
 # esp32-Nortronix-ble – BLE-nivågivare för färsk- och gråvatten
 
 En fristående ESP32 som läser av signalerna från husvagnens Nortronix-tryckbox (nivågivare för färskvatten och gråvatten) och sänder dem trådlöst som en **BLE-beacon**. Huvudskärmen (`esp32-S3-ws4-caravan` på Waveshare ESP32-S3-Touch-LCD-4) plockar upp paketen med sin befintliga NimBLE-skanner, på samma sätt som RuuviTag-sensorerna.
